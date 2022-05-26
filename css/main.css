@@ -1,32 +1,31 @@
 html {
-    font-size: 100%;
+    font-size: 115%;
 }
 
 /*16px*/
 
 body {
-    background: white;
+    background: #FFFFFF;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;
     color: #000000;
+    margin:0;
+    padding:0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+h1, h2, h3, h4, h5 {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 700;
+    color:#5A8C84;
 }
 
 h1 {
     margin-top: 0;
-    font-size: 3.052rem;
+    font-size: 2.5rem;
 }
 
 h2 {
-    font-size: 2.441rem;
+    font-size: 2rem;
 }
 
 h3 {
@@ -45,3 +44,43 @@ small,
 .text_small {
     font-size: 0.8rem;
 }
+
+.navcolor {
+    background-color: #414A37;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+  }
+
+  li {
+      display: inline;
+      padding: 10px;
+  }
+  
+ li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    color:#FFFFFF;
+
+  }
+
+  main {
+      margin-top:2rem;
+  }
+
+  em {
+      font-size:larger;
+      font-weight:bold;
+      font-style: normal;
+      color:#414A37;
+
+  }
+
+  footer {
+      background-color:#132B11;
+      color:#FFFFFF;
+  }
